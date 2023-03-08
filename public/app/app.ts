@@ -257,9 +257,6 @@ function initEchoSrv() {
       })
     );
   }
-
-  console.log('config.grafanaJavascriptAgent.enabled', config.grafanaJavascriptAgent.enabled);
-  console.log('config.grafanaJavascriptAgent', config.grafanaJavascriptAgent);
   if (config.grafanaJavascriptAgent.enabled) {
     registerEchoBackend(
       new GrafanaJavascriptAgentBackend({
