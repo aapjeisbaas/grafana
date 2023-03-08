@@ -13,7 +13,7 @@ You then need to run Grafana with those added config:
 ```ini
 [log.frontend]
 provider = grafana
-custom_endpoint = http://localhost:8027/collect
+custom_endpoint = http://localhost:12347/collect
 api_key = api_key
 
 [tracing.opentelemetry.jaeger]

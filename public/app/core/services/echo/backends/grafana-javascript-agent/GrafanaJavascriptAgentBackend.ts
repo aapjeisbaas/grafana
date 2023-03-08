@@ -74,6 +74,7 @@ export class GrafanaJavascriptAgentBackend
         },
       ],
     };
+
     this.faroInstance = initializeFaro(grafanaJavaScriptAgentOptions);
 
     if (options.user) {
